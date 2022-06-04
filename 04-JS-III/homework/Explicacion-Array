@@ -1,0 +1,53 @@
+ //En un archivo de texto separado que debes crear,
+  //escribe explicaciones de los siguientes conceptos
+   //como si se lo estuvieras explicando a un niño de 12 años. 
+   //Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	//* Arrays
+    //Son arreglos o matrices donde podremos listas y
+    //guardar cualquier tipo de elementos: Variables,
+    //funciones, elementos, otras arrays, textos, numeros 
+     
+     //Para crear un array usamos la siguiente sintaxis
+
+                var miprimerarray = ['toni', 25, lol, 7, 78, 90,59, true, false];
+
+// Para consultar el tamaño de la array cuando no la conocemos :
+
+console.log (miprimerarray.length -1);
+
+ //para modificar un elemento del array
+
+miprimerarray [1] = 65;
+
+//para mostrar un elemento del array
+
+console.log (miprimerarray[1];
+
+    //agregar elementos al final del array
+
+    miprimerarray.push(85);
+
+    //para eliminar el ultimo elementode array
+
+     miprimerarray.pop ();
+     // para agregar un elemento a la primera posicion
+
+     miprimerarray.unshift (lol);
+
+     // para eliminar un elemento de la primera pòsicion
+     miprimerarray.shift ();
+
+      //uso de for con array, esto sirve para recorrer la matriz
+      
+
+      For (i=0; i<miprimerarray.length; i++) {
+          console.log (1);
+      }
+
+
+
+
+
+
+
