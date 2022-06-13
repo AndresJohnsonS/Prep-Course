@@ -1,0 +1,31 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos: Son contenedores de colecciones de datos que a diferencia de las matrices o arrays esta puede contener informacion de la misma cosa e incluso funciones. los objetos se declaran con llaves y separando las key con comas ejemplo:
+
+    var trabajadores { Nombre: "Jose", Edad: 37, Direccion: "en tu casa", Ingreso: 15/15/15};
+
+	* Propiedades: los objetos usan el sistema Key:Value, en el que a cada key podemos asignarles diferentes propiedades o valores, podemos acceder a las propiedades de un objetos  llamado la llave seguido de un punto y la propiedad por ejemplo:
+
+Trabajadores.nombre // "Jose"
+
+	* Métodos: los metodos son las funciones que declaramos dentro de los objetos.
+     por ejemplo:
+
+var trabajadores { Nombre: "Jose", Edad: 37, Direccion: "en tu casa", Ingreso: 15/15/15, sumar: function (){ console.log(Trabajadores.Edad + 10);}
+}
+
+Trabajadores.sumar (); 47
+
+
+	* Bucle `for…in`: es una forma de iterar en un objeto. tiene la siguiente estructura:
+
+   for (var let clave in Trabajadores){
+       return (clave);
+       return ( usuario);
+      }
+
+	* Notación de puntos vs notación de corchetes
+    notacion de puntos.
+    Trabajadores.Nombre
+    notacion de corchetes
+    Trabajadores.["Nombre"]
